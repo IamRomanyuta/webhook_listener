@@ -15,17 +15,17 @@
     npm install
     ```
 
-3. Initialize the database and apply migrations:
-
-    ```bash
-    npx prisma migrate dev --name init
-    ```
-
-4. Create a `.env` file in the root directory with the following content:
+3. Create a `.env` file in the root directory with the following content:
 
     ```env
     DATABASE_URL="file:./prisma/dev.db"
     PORT=3000
+    ```
+
+4. Initialize the database and apply migrations:
+
+    ```bash
+    npx prisma migrate dev --name init
     ```
 
 ## Running the Application
