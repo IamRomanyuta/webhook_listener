@@ -88,6 +88,7 @@ npm run lint
 
 ## Project Structure
 
+```plaintext
 webhook_listener/
 ├── node_modules/
 ├── prisma/
@@ -113,6 +114,6 @@ webhook_listener/
 ├── package-lock.json
 ├── package.json
 └── README.md
-
+```
 
 <!-- Этот `README.md` файл предоставляет полные инструкции по настройке, запуску и тестированию приложения. Если у вас есть еще вопросы или нужны дополнительные изменения, дайте знать! -->
